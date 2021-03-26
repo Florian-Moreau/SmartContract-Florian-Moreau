@@ -20,17 +20,17 @@ contract Shipping{
     
     //Fonction déclenché quand le colis est expédié
     event Pending(
-
+        Status choice;
     )
 
     //Fonction déclenché quand le colis est expédié
     event Shipped(
-
+        Status choice;
     )
     
     //Evenement declencher lorsque le colis est livré
     event Delivred(
-
+        Status choice;
     )
     
     //Fonction changeant létat de Status pour dire que la commande est en attente
